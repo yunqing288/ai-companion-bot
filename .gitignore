@@ -1,0 +1,12 @@
+.env
+data/
+__pycache__/
+*.pyc
+.DS_Store
+*.bak_*
+
+# 文档 / 文本类（不进代码仓库）
+*.docx
+*.pdf
+README.md
+设计文档/

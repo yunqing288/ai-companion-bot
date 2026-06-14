@@ -1,0 +1,8 @@
+python-telegram-bot>=20.0
+anthropic>=0.40.0
+cryptography>=41.0
+# Windows 没有系统 IANA 时区库，ZoneInfo 需要它，否则 bot 启动即报错
+tzdata>=2024.1
+# 向量召回（记忆底座地基）。缺失时向量层会自动禁用，不影响 bot 启动。
+sentence-transformers>=2.2.0
+numpy>=1.24
